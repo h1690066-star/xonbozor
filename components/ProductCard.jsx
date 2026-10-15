@@ -108,9 +108,8 @@ function ProductCard({ product: p, t, priority = false }) {
       <div className="relative aspect-square w-full bg-white">
         {/* Holat nishoni (ORIGINAL / B/U) */}
         <span
-          className={`absolute left-2.5 top-2.5 z-10 inline-flex items-center gap-1 rounded-full py-0.5 pl-1.5 pr-2 text-[10px] font-bold tracking-wide text-white ${
-            p.used ? "bg-amber-500" : "bg-emerald-600"
-          }`}
+          className={`absolute left-2.5 top-2.5 z-10 inline-flex items-center gap-1 rounded-full py-0.5 pl-1.5 pr-2 text-[10px] font-bold tracking-wide text-white ${p.used ? "bg-amber-500" : "bg-emerald-600"
+            }`}
         >
           {!p.used && <MdCheck className="text-[11px]" aria-hidden />}
           {p.used ? "B/U" : "ORIGINAL"}
