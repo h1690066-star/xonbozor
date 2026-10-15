@@ -58,8 +58,9 @@ export const metadata = {
   },
   icons: { icon: "/logo.png", apple: "/logo.png" },
 
-
-
+  verification: {
+    google: "tHKpRJq_GqG1ktEjHmDCrVMbeCEy5NPOShEJGsz8m5c",
+  },
 };
 
 import Providers from "@/components/Providers";
